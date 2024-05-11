@@ -6,7 +6,8 @@ function FiveDayForecast({ forecast }) {
   }
 
   return (
-    <div>
+    
+      <div className="forecast-container">
       {forecast.map((day, index) => (
         <div key={index}>
           <p>
